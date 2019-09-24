@@ -186,22 +186,50 @@ body .section1 .love2 {
 html .section1 .collab,
 body .section1 .collab {
   height: 100px;
-  width: 100%;
+  width: 300px;
   font-size: 40px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
+  color: blue;
+  text-align: center;
+  padding-top: 30px;
 }
 html .container2,
 body .container2 {
-  height: 500px;
+  height: 300px;
   display: flex;
+  /*border: 1px solid;*/
+  background-color: whitesmoke;
+}
+html .section1a,
+body .section1a {
+  height: 200px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 html .section1a .skills-paragraph,
 body .section1a .skills-paragraph {
-  font-size: 20px;
+  font-size: 30px;
 }
 html .section1a .skills-header,
 body .section1a .skills-header {
-  font-size: 25px;
+  font-size: 35px;
+  text-align: center;
+}
+html .section1b,
+body .section1b {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+html .section1b .good-header,
+body .section1b .good-header {
+  font-size: 40px;
+  text-align: center;
+}
+html .section1b .skill,
+body .section1b .skill {
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid;
 }
