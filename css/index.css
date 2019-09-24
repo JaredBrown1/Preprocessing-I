@@ -1,1 +1,207 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: darkgray;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+html nav,
+body nav {
+  width: 100%;
+  padding: 20px;
+  /*border: 2px solid;*/
+  display: flex;
+  justify-content: center;
+}
+html nav a,
+body nav a {
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  /*border: 2px black solid;*/
+  text-decoration: none;
+  color: white;
+}
+html .section1,
+body .section1 {
+  /*border: 2px solid;*/
+  background-color: peachpuff;
+}
+html .section1 img,
+body .section1 img {
+  width: 300px;
+  height: 400px;
+}
+html .section1 .my-name,
+body .section1 .my-name {
+  font-size: 60px;
+  text-align: center;
+}
+html .section1 .love1,
+body .section1 .love1 {
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+html .section1 .love2,
+body .section1 .love2 {
+  padding-top: 50px;
+  height: 80px;
+  font-size: 35px;
+}
+html .section1 .collab,
+body .section1 .collab {
+  height: 100px;
+  width: 100%;
+  font-size: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+html .container2,
+body .container2 {
+  height: 500px;
+  display: flex;
+}
+html .section1a .skills-paragraph,
+body .section1a .skills-paragraph {
+  font-size: 20px;
+}
+html .section1a .skills-header,
+body .section1a .skills-header {
+  font-size: 25px;
+}
