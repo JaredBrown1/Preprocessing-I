@@ -133,7 +133,6 @@ table {
 html,
 body {
   background-color: darkgray;
-  height: 100%;
   width: 80%;
   margin: 0 auto;
 }
@@ -182,11 +181,12 @@ body .section1 .love2 {
   padding-top: 50px;
   height: 80px;
   font-size: 35px;
+  text-align: center;
 }
 html .section1 .collab,
 body .section1 .collab {
   height: 100px;
-  width: 300px;
+  width: 100%;
   font-size: 40px;
   color: blue;
   text-align: center;
@@ -210,6 +210,7 @@ body .section1a {
 html .section1a .skills-paragraph,
 body .section1a .skills-paragraph {
   font-size: 30px;
+  text-align: center;
 }
 html .section1a .skills-header,
 body .section1a .skills-header {
@@ -232,4 +233,9 @@ body .section1b .skill {
   font-size: 40px;
   text-align: center;
   border: 1px solid;
+}
+html .container3 .history,
+body .container3 .history {
+  font-size: 50px;
+  text-align: center;
 }
