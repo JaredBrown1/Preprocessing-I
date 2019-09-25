@@ -214,7 +214,7 @@ body .section1a .skills-paragraph {
 }
 html .section1a .skills-header,
 body .section1a .skills-header {
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
 }
 html .section1b,
@@ -236,6 +236,22 @@ body .section1b .skill {
 }
 html .container3 .history,
 body .container3 .history {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
+}
+html .container3 .albertsons,
+body .container3 .albertsons {
+  font-size: 30px;
+}
+html .container3 .albertsons .skills-learned,
+body .container3 .albertsons .skills-learned {
+  font-size: 100px;
+}
+html .container3 .panda,
+body .container3 .panda {
+  font-size: 30px;
+}
+html .container3 .mkts,
+body .container3 .mkts {
+  font-size: 30px;
 }
