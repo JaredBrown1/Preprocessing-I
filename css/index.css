@@ -242,16 +242,25 @@ body .container3 .history {
 html .container3 .albertsons,
 body .container3 .albertsons {
   font-size: 30px;
-}
-html .container3 .albertsons .skills-learned,
-body .container3 .albertsons .skills-learned {
-  font-size: 100px;
+  padding: 10px;
 }
 html .container3 .panda,
 body .container3 .panda {
   font-size: 30px;
+  padding: 10px;
 }
 html .container3 .mkts,
 body .container3 .mkts {
   font-size: 30px;
+  padding: 10px;
+}
+html .container3 .skills-learned,
+body .container3 .skills-learned {
+  font-size: 25px;
+  padding: 10px;
+}
+html .container3 .history-paragraphs,
+body .container3 .history-paragraphs {
+  font-size: 20px;
+  padding: 10px;
 }
