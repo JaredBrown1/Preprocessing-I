@@ -196,7 +196,7 @@ html .container2,
 body .container2 {
   height: 300px;
   display: flex;
-  /*border: 1px solid;*/
+  border: 1px solid;
   background-color: whitesmoke;
 }
 html .section1a,
@@ -263,4 +263,33 @@ html .container3 .history-paragraphs,
 body .container3 .history-paragraphs {
   font-size: 20px;
   padding: 10px;
+}
+html .container4,
+body .container4 {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid;
+}
+html .container4 .contact,
+body .container4 .contact {
+  padding-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+html .container4 .call,
+body .container4 .call {
+  font-size: 25px;
+  text-align: center;
+}
+html .container4 .text,
+body .container4 .text {
+  font-size: 25px;
+  text-align: center;
+}
+html .container4 .connect,
+body .container4 .connect {
+  font-size: 25px;
+  text-align: center;
 }
